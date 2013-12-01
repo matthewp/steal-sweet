@@ -1,0 +1,30 @@
+{
+  "name": "steal-sweet",
+  "version": "0.0.1",
+  "description": "require-sweet is a [Require.js](http://requirejs.org) plugin that allows you to require [sweet.js](http://sweetjs.org/) dependencies into your project. This means you can leverage macros in your JavaScript on the fly, and later during your build!",
+  "main": "sweet/sweet.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewp/steal-sweet.git"
+  },
+  "keywords": [
+    "steal",
+    "sweet.js"
+  ],
+  "author": "Matthew Phillips",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/matthewp/steal-sweet/issues"
+  },
+  "homepage": "https://github.com/matthewp/steal-sweet"
+}

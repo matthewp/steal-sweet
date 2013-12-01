@@ -1,0 +1,26 @@
+{
+  "name": "require-sweet",
+  "version": "0.0.1",
+  "authors": [
+    "Matthew Phillips <matthew@matthewphillips.info>"
+  ],
+  "description": "Steal loader for sweet.js",
+  "main": "sweet/sweet.js",
+  "keywords": [
+    "steal",
+    "sweet.js",
+    "sweetjs"
+  ],
+  "license": "Apache 2",
+  "homepage": "https://github.com/matthewp/steal-sweet",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+		"steal",
+		"example",
+		"stealconfig.js"
+  ]
+}
