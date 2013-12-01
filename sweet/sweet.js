@@ -1,7 +1,7 @@
-steal('./compiler/escodegen.js', 'underscore')
-	.then('./compiler/parser.js')
-	.then('./compiler/expander.js')
-	.then('./compiler/sweet.js')
+steal({ id: './compiler/escodegen.js', ignore: true }, 'underscore')
+	.then({ id: './compiler/parser.js', ignore: true })
+	.then({ id: './compiler/expander.js', ignore: true })
+	.then({ id: './compiler/sweet.js', ignore: true })
 	.then(function(){
 	
 	// Reference to sweet.

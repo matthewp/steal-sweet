@@ -1,6 +1,6 @@
 # steal-sweet
 
-steal-sweet is a [Steal](http://javascriptmvc.com/docs/steal.html) loader for [sweet.js](http://sweetjs.org/). This allows you to work with macros as you develop without the time-consuming compilation step that you have from using the `sjs` command line tool.
+**steal-sweet** is a [Steal](http://javascriptmvc.com/docs/steal.html) ([GitHub](https://github.com/bitovi/steal)) loader for [sweet.js](http://sweetjs.org/). This allows you to work with macros as you develop without the time-consuming compilation step that you have from using the `sjs` command line tool.
 
 Additionally steal-sweet has the advantage of allows you to define macros that can be used by all of your `.sjs` files.
 
