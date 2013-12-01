@@ -14,6 +14,12 @@ bower install steal-sweet --save
 
 This will add steal-sweet to your `bower.json` file so when you deploy your app (or just share it with colleagues) all you have to do is `bower install`.
 
+You may also follow the same procedure but use `npm` instead:
+
+```shell
+npm install steal-sweet --save
+```
+
 Alternatively you can clone the git repository from [here](https://github.com/matthewp/steal-sweet.git).
 
 ## Usage
@@ -40,7 +46,7 @@ steal.config({
 			macros: ["macros/class.sjs", "macros/destruct.sjs"]
 		}
 	}
-}
+});
 ```
 
 These macros will be compiled along with any other `.sjs` file. Then all you need to do is:
