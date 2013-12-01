@@ -22,6 +22,25 @@ npm install steal-sweet --save
 
 Alternatively you can clone the git repository from [here](https://github.com/matthewp/steal-sweet.git).
 
+## Dependencies
+
+Sweet.js is dependent on [Underscore](http://underscorejs.org/)/[Lo-Dash](http://lodash.com/) for compilation. You can use either, just make sure that "underscore" is mapped somewhere. So, for example, using Lo-Dash you can do:
+
+```javascript
+steal.config({
+	map: {
+		"*": {
+			"underscore/underscore.js": "lodash"
+		}
+	},
+	paths: {
+		"lodash": "path/to/lodash/lodash.js"
+	}
+});
+```
+
+Although this dependency is needed for development in the browser, it's not needed in your production build so feel free to mark it as [ignored](http://javascriptmvc.com/docs/steal.config.shim.html).
+
 ## Usage
 
 You can use steal-sweet just like any another steal type loader. Just add it as an extension in your `stealconfig.js` like so:

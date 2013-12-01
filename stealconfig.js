@@ -1,11 +1,11 @@
 steal.config({
 	map: {
 		"*": {
-      "underscore/underscore.js": "underscore"
+      "underscore/underscore.js": "lodash"
 		}
 	},
 	paths: {
-    "underscore": 'node_modules/underscore/underscore.js'
+    "lodash": 'node_modules/lodash/lodash.js'
 	},
 	shim : {
     underscore: {
